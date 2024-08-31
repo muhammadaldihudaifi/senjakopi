@@ -31,7 +31,7 @@
 <body>
 
     <!-- Header -->
-     <header>
+     <header class="navbar">
         <a href="#" class="logo">
             senja<span>kopi</span>
             <!-- <img src="assets/logo.png" alt="">   -->
@@ -40,29 +40,73 @@
         <ul class="navlist">
             <li><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
-            <li><a href="#menu">Membership</a></li>
-            <li><a href="#">Events</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#products">Produk</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
 
         <div class="right-content">
             <a href="#" class="nav-btn">Sign In</a>
             <div class="bx bx-search" id="menu-search"></div>
+            <div class="bx bx-cart" id="shopping-cart-button"></div>
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
+
+        <!-- Search Form start -->
+        <div class="search-form">
+            <input type="search" id="search-box" placeholder="search here...">
+            <label for="search-box"><i data-feather="search"></i></label>
+        </div>
+        <!-- Search Form end -->
+
+
+
+
+        <!-- Shopping Cart start -->
+        <div class="shopping-cart">
+            <div class="cart-item">
+            <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+            <div class="item-detail">
+                <h3>Product 1</h3>
+                <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+            <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+            <div class="item-detail">
+                <h3>Product 1</h3>
+                <div class="item-price">IDR 25K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+            <div class="cart-item">
+            <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+            <div class="item-detail">
+                <h3>Product 1</h3>
+                <div class="item-price">IDR 20K</div>
+            </div>
+            <i data-feather="trash-2" class="remove-item"></i>
+            </div>
+        </div>
+        <!-- Shopping Cart end -->
+
+
+
     </header>
     
     <!-- Hero  -->
      <section class="hero">
             <div class="hero-text">
-                <h5 data-aos="fade-right" data-aos-duration="1400">#Kopi Kaganangan orang banua anam</h5>
-                <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200">- Sekali</h1>
-                <p data-aos="fade-right" data-aos-duration="1400" data-aos-delay="300"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, rerum sed? Aliquid nisi illum quidem?</p>
-
+                <h5 data-aos="fade-right" data-aos-duration="1400">#Kopi untuk hari yang cerah</h5>
+                <h1 data-aos="zoom-in-left" data-aos-duration="1400" data-aos-delay="200"> Kopi Hangat</h1>
+                <p data-aos="fade-right" data-aos-duration="1400" 
+                data-aos-delay="300"> Tingkatkan produktivitas Anda dan bangun mood Anda dengan segelas kopi di pagi hari. Kopi memiliki efek membangkitkan semangat.
+                
                 <div class="main-hero" data-aos="flip-down" data-aos-duration="1400" data-aos-delay="400">
-                    <a href="#" class="btn">Order Sekarang nih</a>
+                    <a href="#" class="btn">Order Sekarang </a>
                     <a href="#" class="price">
-                        Rp. 15.000 | <span>Regular</span>
+                        Rp. 15.000 | <span>Harga Regular</span>
                     </a>    
                 </div>
             </div>
@@ -142,6 +186,84 @@
     </section>
      <!-- Menu Section end-->
 
+
+
+    <!-- Products Section start -->
+    <section class="products" id="products">
+    <h2><span>Produk Unggulan</span> Kami</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo unde eum, ab fuga possimus iste.</p>
+
+    <div class="row">
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="product-icons">
+          <a href="#"><i data-feather="shopping-cart"></i></a>
+          <a href="#" class="item-detail-button"><i data-feather="eye"></i></a>
+        </div>
+        <div class="product-image">
+          <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+        </div>
+        <div class="product-content">
+          <h3>Coffee Beans 1</h3>
+          <div class="product-stars">
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Products Section end -->
+
+
+
+
+
+
+
      <!-- Contact Section -->
     <section id="contact" class="contact">
         <h2><span>Kontak</span> Kami</h2>      
@@ -190,6 +312,36 @@
         <p>Created by <a href=""> Muhammad Aldi H</a>. | &copy; 1450</p>
     </div>
 </footer>
+
+
+
+
+  <!-- Modal Box Item Detail start -->
+  <div class="modal" id="item-detail-modal">
+    <div class="modal-container">
+      <a href="#" class="close-icon"><i data-feather="x"></i></a>
+      <div class="modal-content">
+        <img src="assets/turkish-coffeei.jpg" alt="Product 1">
+        <div class="product-content">
+          <h3>Product 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident, tenetur cupiditate facilis obcaecati
+            ullam maiores minima quos perspiciatis similique itaque, esse rerum eius repellendus voluptatibus!</p>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          <a href="#"><i data-feather="shopping-cart"></i> <span>add to cart</span></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Modal Box Item Detail end -->
+
+
 
 
     <!-- js link -->
