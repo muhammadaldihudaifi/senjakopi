@@ -238,7 +238,7 @@ header.navbar .search-form {
 
 
   
-
+/* Hero Section */
 .hero {
     position: relative;
     width: 100%;
@@ -848,15 +848,15 @@ footer .credit a {
 
 @media(max-width: 760px) {
 
-.modal-content {
+    .modal-content {
     flex-wrap: wrap;
-  }
-.modal-content .product-content p {
+     }
+    .modal-content .product-content p {
     font-size: 1rem;
     margin-top: 0.5rem;
     margin-bottom: 0.8rem;
     height: inherit;
-}
+    }
 }
 
 @media(max-width: 570px) {
@@ -916,6 +916,10 @@ footer .credit a {
     :root {
         --big-font: 3.4rem;
     }
+    .navlist {
+        top: 81%;
+    }
+    
     .hero-text h5 {
         font-size: 15px;
     }
@@ -924,6 +928,32 @@ footer .credit a {
         width: 360px;
         margin: 0 auto; 
     }
+    .btn {
+        font-size: 14px;
+    }
+
+    .price {
+        font-size: 15px;
+    }
+    .price span {
+        font-size: 14px;
+    }
+    .about .row .content p {
+        font-size: 1.1rem;
+    }
+
+    .products .row {
+        grid-template-columns: repeat(auto-fit, minmax(23rem, 1fr));
+    }
+
+    .products .product-image img {
+        height: 0%;
+      }
+    footer .links a {
+        padding-left: 0.9rem;
+        padding-right: 0.8rem;  
+    }
+
     .modal-content img {
         height: 16rem;
     }
@@ -936,3 +966,4 @@ footer .credit a {
         right: 1rem;
     }
 }
+/* muslim */
