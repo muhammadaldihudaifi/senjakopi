@@ -966,4 +966,69 @@ footer .credit a {
         right: 1rem;
     }
 }
+
+@media(max-width: 380px) and (max-height: 800px) {
+    .hero {
+        /* width:110%; */
+        height: 122vh;
+    }
+    .btn {
+        font-size: 11px;
+    }
+    .about h2, .menu h2, .products h2, .contact h2 {
+        font-size: 2.2rem;
+    }
+    header.navbar .right-content #menu-search, #shopping-cart-button, #menu-icon {
+        font-size: 1.1rem;
+    }
+    header.navbar .search-form {
+        height: 3.5rem;      
+    }
+    .hero-img img {
+        position: relative;
+        width: 90%;
+        bottom: 40px;
+    }
+    .menu .row .menu-card img {
+        width: 50%;
+    }
+    .products .row {
+        grid-template-columns: repeat(auto-fit, minmax(20.8rem, 1fr));
+        margin-left: -5px;
+    }
+    .products .product-icons a {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+    .products .product-image img {
+        height: 15rem;
+        border-radius: 2%;
+    }
+    .products .product-content h3 {
+        font-size: 1.5rem;
+    }
+    .products .product-price {
+        font-size: 1rem;
+    }
+    .contact .row form {
+        padding: 0rem 0rem;
+        padding-top: 5rem;
+    }
+    .contact .row form .input-group input {
+        font-size: 1.4rem;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .contact .row form .button {
+        font-size: 1.1rem;
+    }
+    footer {
+        width: 104%;
+        padding-right: 5%;
+    }
+    footer .links a {
+        padding-left: 0.4rem;
+        padding-right: 0.4rem;
+    }
+}
 /* muslim */
